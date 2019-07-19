@@ -12,5 +12,9 @@ in the project with id = 'DSLMoveBuildsSub1', and delete the patch script.
 create(RelativeId("DSLMoveBuildsSub1"), BuildType({
     id("DSLMoveBuildsSub1_Build2")
     name = "Build2"
+
+    vcs {
+        root(DslContext.settingsRoot)
+    }
 }))
 
