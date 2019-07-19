@@ -29,5 +29,10 @@ create(RelativeId("DSLMoveBuildsSub1"), BuildType({
         vcs {
         }
     }
+
+    dependencies {
+        snapshot(RelativeId("DSLMoveBuildsSub1_Build2")) {
+        }
+    }
 }))
 
