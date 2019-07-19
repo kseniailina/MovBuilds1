@@ -21,10 +21,6 @@ create(RelativeId("DSLMoveBuildsSub2"), BuildType({
         param("blabla", "%env.BUILD_VCS_NUMBER_TEstVCS%")
     }
 
-    vcs {
-        root(AbsoluteId("TEstVCS"))
-    }
-
     steps {
         maven {
             goals = "clean test"
