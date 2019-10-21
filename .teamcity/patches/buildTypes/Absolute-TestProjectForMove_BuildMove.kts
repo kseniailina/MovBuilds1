@@ -35,6 +35,7 @@ create(RelativeId("DSLMoveBuildsSub2"), BuildType({
             }
             branchFilter = ""
             triggerBuild = always()
+            param("revisionRuleBuildBranch", "<default>")
         }
     }
 

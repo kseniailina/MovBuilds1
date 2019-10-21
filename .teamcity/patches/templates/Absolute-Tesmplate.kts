@@ -12,9 +12,5 @@ in the root project, and delete the patch script.
 create(DslContext.projectId, Template({
     id = AbsoluteId("Tesmplate")
     name = "Tesmplate"
-
-    enablePersonalBuilds = false
-    detectHangingBuilds = false
-    publishArtifacts = PublishMode.ALWAYS
 }))
 
