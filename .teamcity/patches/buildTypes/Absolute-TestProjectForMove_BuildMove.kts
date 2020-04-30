@@ -19,6 +19,7 @@ create(RelativeId("DSLMoveBuildsSub2"), BuildType({
     params {
         param("test", "1")
         param("blabla", "%env.BUILD_VCS_NUMBER_TEstVCS%")
+        param("env.BUILD_VCS_NUMBER_TEstVCS", "1")
     }
 
     steps {
